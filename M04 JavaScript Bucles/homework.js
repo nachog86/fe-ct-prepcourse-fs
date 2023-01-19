@@ -167,13 +167,13 @@ function doWhile(num) {
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
    // Tu código:
-   var i = 0;
+   let i = 0
    do {
-      i = i ++;
-      num = num + 5
-   }
-   while(i < 8);
-   return num; 
+      num += 5
+      i++
+   } while(i < 8)
+
+   return num 
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
